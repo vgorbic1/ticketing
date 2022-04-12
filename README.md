@@ -1,7 +1,7 @@
 # Microservices Application
-Source: Udemy Microservices
-Author: Stephen Grider
-Url: https://www.udemy.com/course/microservices-with-node-js-and-react
+- Source: Udemy Microservices
+- Author: Stephen Grider
+- Url: https://www.udemy.com/course/microservices-with-node-js-and-react
 
 ## Requirements
 - Packages: Node, Docker with Kubernetes.
