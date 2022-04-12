@@ -4,7 +4,7 @@
 - Url: https://www.udemy.com/course/microservices-with-node-js-and-react
 
 ## Requirements
-- Packages: Node, Docker with Kubernetes engaged.
+- Packages: Node, Docker with Kubernetes.
 - In the system host file make sure you map 127.0.0.0 to ticketing.dev
   macOS / Linux: /etc/hosts
   Windows: C:\Windows\System32\Drivers\etc\hosts
