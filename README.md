@@ -66,3 +66,11 @@ Library: node-nats-streaming
 
 ## Stripe
 Main account in test mode
+
+## Workflow
+- Create a Git branch
+- Make updates in code
+- Push to Github
+- On Github: make a pull request to master branch (will run tests)
+- On Github: if tests passes, merge PR. (will update all images on Dockerhub)
+- [Ad depoloyment step if needed]
