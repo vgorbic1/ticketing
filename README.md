@@ -1,8 +1,10 @@
-# Microservicess Application
-From Udemy Microservices course
+# Microservices Application
+Source: Udemy Microservices
+Author: Stephen Grider
+Url: https://www.udemy.com/course/microservices-with-node-js-and-react
 
 ## Requirements
-- Packages: Node, Docker with Kubernetes engaged.
+- Packages: Node, Docker with Kubernetes.
 - In the system host file make sure you map 127.0.0.0 to ticketing.dev
   macOS / Linux: /etc/hosts
   Windows: C:\Windows\System32\Drivers\etc\hosts
@@ -63,4 +65,4 @@ Library: node-nats-streaming
 > kubectl port-forward <pod_name> 4222:4222   // port on localhost : port of the pod
 
 ## Stripe
-vlad@gorbich.com in test mode
+Main account in test mode
