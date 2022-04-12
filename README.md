@@ -1,5 +1,7 @@
-# Microservicess Application
-From Udemy Microservices course
+# Microservices Application
+- From: Udemy Microservices Course
+- Author: Stephen Grider 
+- Url: https://www.udemy.com/course/microservices-with-node-js-and-react
 
 ## Requirements
 - Packages: Node, Docker with Kubernetes engaged.
@@ -19,7 +21,7 @@ Start Skaffold (look below) and go to https://ticketing.dev
 4242 4242 4242 4242
 10/30 123
 
-### Kubernetes
+## Kubernetes
 To run skaffold:
 > skaffold dev
 
@@ -28,12 +30,12 @@ To look inside pods (containers) to run a shell inside them
 get the name of the pod
 > kubectl exec -it <name-of-the-pod> sh
 
-### Tests
+## Tests
 To run all tests:
 > cd auth
 > npm run tests
 
-### NPM packaging
+## NPM packaging
 To publish a module with NPM:
 - make sure it has a git repo and is fully commited.
 - login to npm: > npm login
@@ -63,4 +65,4 @@ Library: node-nats-streaming
 > kubectl port-forward <pod_name> 4222:4222   // port on localhost : port of the pod
 
 ## Stripe
-vlad@gorbich.com in test mode
+Main account in test mode
